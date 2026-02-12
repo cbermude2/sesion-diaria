@@ -170,56 +170,7 @@ body {
   color: white;
 }
 
-/* ===== ENLACES DE UTILIDAD - UNA SOLA LÍNEA ===== */
-.utilidad-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.8rem;
-  margin-top: 0.75rem;
-  width: 100%;
-}
-
-.enlace-item {
-  background: #1a2536;
-  padding: 0.7rem 1rem;
-  border-radius: 40px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: all 0.2s ease;
-  border: 1px solid #2d3a4f;
-  flex: 0 1 auto;
-  white-space: nowrap;
-}
-
-.enlace-item:hover {
-  background: #263649;
-  border-color: #5f7a9a;
-  transform: translateY(-2px);
-}
-
-.enlace-item a {
-  text-decoration: none;
-  color: #e0f2fe;
-  font-weight: 500;
-  font-size: 0.85rem;
-  word-break: keep-all;
-  white-space: nowrap;
-}
-
-.enlace-icon {
-  font-size: 1.1rem;
-}
-
-.email-link {
-  color: #b9d4fe !important;
-  font-size: 0.8rem !important;
-  text-decoration: underline 1px dashed #8099b0 !important;
-  text-underline-offset: 4px;
-}
-
+/* ===== ENLACES DE UTILIDAD - COMPACTO EN UNA SOLA LÍNEA ===== */
 .subseccion-titulo {
   display: flex;
   align-items: center;
@@ -230,6 +181,55 @@ body {
   color: #b9d4fe;
   border-bottom: 1px solid #334155;
   padding-bottom: 0.6rem;
+}
+
+.utilidad-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.enlace-item {
+  background: #1e2a3a;
+  padding: 0.4rem 0.9rem;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.2s ease;
+  border: 1px solid #334155;
+  flex: 0 1 auto;
+  white-space: nowrap;
+}
+
+.enlace-item:hover {
+  background: #263649;
+  border-color: #60a5fa;
+  transform: translateY(-1px);
+}
+
+.enlace-item a {
+  text-decoration: none;
+  color: #e0f2fe;
+  font-weight: 400;
+  font-size: 0.8rem;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.enlace-icon {
+  font-size: 0.95rem;
+}
+
+.email-link {
+  color: #a5f3fc !important;
+  font-size: 0.75rem !important;
+  text-decoration: underline 1px dashed #60a5fa !important;
+  text-underline-offset: 3px;
 }
 
 /* ===== PRÓXIMAS SESIONES ===== */
@@ -314,18 +314,20 @@ body {
   .utilidad-grid {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.4rem;
   }
   
   .enlace-item {
     white-space: normal;
     justify-content: center;
-    padding: 0.8rem 1rem;
+    padding: 0.6rem 1rem;
   }
   
   .enlace-item a {
     white-space: normal;
     word-break: break-word;
     text-align: center;
+    font-size: 0.85rem;
   }
   
   .proxima-item {
@@ -360,5 +362,9 @@ body {
   
   .carrera-badge {
     margin-left: 0;
+  }
+  
+  .carrera-titulo {
+    font-size: 1.3rem;
   }
 }
