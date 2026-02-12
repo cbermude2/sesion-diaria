@@ -1,96 +1,34 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desarrollo de Software · Sesión diaria</title>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-  <div class="container">
-
-    <!-- SECCIÓN 1: NOMBRE DE LA CARRERA -->
-    <div class="card">
-      <div class="carrera-header">
-        <span class="carrera-icon">💻</span>
-        <h1 class="carrera-titulo">Desarrollo de Software</h1>
-        <span class="carrera-badge">#TEC</span>
-      </div>
-    </div>
-
-    <!-- SECCIÓN 2: SESIÓN DE CLASE DE HOY -->
-    <div class="card" id="sesion-card">
-      <div class="sesion-header">
-        <div class="sesion-titulo">
-          <span>🎥</span> Sesión del hoy
-        </div>
-        <div class="fecha-hoy" id="fechaDisplay">
-          📅 Cargando...
-        </div>
-      </div>
-
-      <div class="materia-profesor">
-        <span class="materia-nombre" id="materiaNombre">Cargando materia...</span>
-        <span class="profesor-nombre" id="profesorNombre">
-          👨‍🏫 <span id="profesorTexto">Cargando...</span>
-        </span>
-      </div>
-
-      <div class="detalle-sesion">
-        <div class="detalle-item" id="horaItem">
-          ⏰ <strong id="horaValor">Cargando...</strong>
-        </div>
-      </div>
-
-      <a id="enlaceSesion" href="#" target="_blank" class="btn-sesion">
-        👉 Entrar a la sesión
-      </a>
-    </div>
-
-    <!-- SECCIÓN 3: ENLACES DE UTILIDAD - VERSIÓN ULTRA COMPACTA -->
-    <div class="card">
-      <div class="subseccion-titulo">
-        <span>🔖</span> Enlaces de utilidad
-      </div>
-      <div class="utilidad-grid">
-        
-        <div class="enlace-item">
-          <span class="enlace-icon">📚</span>
-          <a href="http://tec.ucsg.edu.ec" target="_blank">Plataforma académica</a>
-        </div>
-        
-        <div class="enlace-item">
-          <span class="enlace-icon">⚙️</span>
-          <a href="https://www46.ucsg.edu.ec/Login.htm" target="_blank">Servicios en línea</a>
-        </div>
-        
-        <div class="enlace-item">
-          <span class="enlace-icon">📧</span>
-          <a href="https://webmail.cu.ucsg.edu.ec" target="_blank">Correo institucional</a>
-        </div>
-        
-        <div class="enlace-item">
-          <span class="enlace-icon">📋</span>
-          <a href="mailto:academico.tec@cu.ucsg.edu.ec" class="email-link">academico.tec</a>
-        </div>
-        
-        <div class="enlace-item">
-          <span class="enlace-icon">💰</span>
-          <a href="mailto:admissiones.tec@cu.ucsg.edu.ec" class="email-link">admissiones.tec</a>
-        </div>
-        
-      </div>
-    </div>
-
-    <!-- SECCIÓN 4: PRÓXIMAS SESIONES -->
-    <div class="card" id="proximas-sesiones" style="display: none;">
-      <div class="subseccion-titulo">
-        <span>📅</span> Próximas sesiones
-      </div>
-      <div id="lista-proximas-sesiones" class="proximas-lista"></div>
-    </div>
+<!-- SECCIÓN 3: ENLACES DE UTILIDAD - UNA SOLA LÍNEA -->
+<div class="card">
+  <div class="subseccion-titulo">
+    <span>🔖</span> Enlaces de utilidad
   </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  <div class="utilidad-grid">
+    
+    <div class="enlace-item">
+      <span class="enlace-icon">📚</span>
+      <a href="http://tec.ucsg.edu.ec" target="_blank">Plataforma académica</a>
+    </div>
+    
+    <div class="enlace-item">
+      <span class="enlace-icon">⚙️</span>
+      <a href="https://www46.ucsg.edu.ec/Login.htm" target="_blank">Servicios en línea</a>
+    </div>
+    
+    <div class="enlace-item">
+      <span class="enlace-icon">📧</span>
+      <a href="https://webmail.cu.ucsg.edu.ec" target="_blank">Correo institucional</a>
+    </div>
+    
+    <div class="enlace-item">
+      <span class="enlace-icon">📋</span>
+      <a href="mailto:academico.tec@cu.ucsg.edu.ec" class="email-link">academico.tec</a>
+    </div>
+    
+    <div class="enlace-item">
+      <span class="enlace-icon">💰</span>
+      <a href="mailto:admissiones.tec@cu.ucsg.edu.ec" class="email-link">admissiones.tec</a>
+    </div>
+    
+  </div>
+</div>
