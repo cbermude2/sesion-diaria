@@ -23,13 +23,13 @@
       max-width: 600px;
     }
     h1 {
-      margin-bottom: 10px;
-      color: #38bdf8;
-    }    
-    .materia {
       font-size: 1.1em;
       margin-bottom: 8px;
       color: ##fafaf5;
+    }    
+    .materia {
+      margin-bottom: 10px;
+      color: #38bdf8;
     }
     .profesor {
       font-size: 1em;
@@ -60,15 +60,15 @@
 <body>
   <div class="card">
 
-    <h1>Sesión del hoy</h1>
+    <h1><div class="materia">
+      📘 <strong id="materia">Cargando...</strong>
+    </div></h1>
 
+    <h1>Sesión del hoy</h1>h1>
+    
     <div class="fechahora">
       📅 <strong id="fecha">Cargando...</strong><br><br>
       ⏰ <strong id="hora">Cargando...</strong>
-    </div>
-
-    <div class="materia">
-      📘 <strong id="materia">Cargando...</strong>
     </div>
     
     <div class="profesor">
