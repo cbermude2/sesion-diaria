@@ -14,6 +14,7 @@ fetch('data.json')
       document.getElementById('hora').textContent = sesionHoy.hora;
       document.getElementById('enlace').href = sesionHoy.enlace;
     } else {
+      document.getElementById('materia').textContent = '-';
       document.getElementById('fecha').textContent = 'No hay sesión hoy';
       document.getElementById('hora').textContent = '-';
       document.getElementById('enlace').style.display = 'none';
