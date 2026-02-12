@@ -2,26 +2,25 @@
   {
     "fecha": "2026-02-09",
     "hora": "19:00 - 21:00",
+    "asignatura": "Bases para el desarrollo Cross-Platform",
     "enlace": "https://enlace-lunes.com"
   },
   {
     "fecha": "2026-02-10",
-    "hora": "19:00 - 21:00",
+    "hora": "19:00 - 22:00",
+    "asignatura": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
     "enlace": "https://enlace-martes.com"
   },
   {
     "fecha": "2026-02-11",
     "hora": "19:00 - 21:00",
+    "asignatura": "Bases para el desarrollo Cross-Platform",
     "enlace": "https://enlace-miercoles.com"
   },
   {
     "fecha": "2026-02-12",
-    "hora": "19:00 - 21:00",
+    "hora": "19:00 - 22:00",
+    "asignatura": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
     "enlace": "https://enlace-jueves.com"
-  },    
-  {
-    "fecha": "2026-02-13",
-    "hora": "19:00 - 21:00",
-    "enlace": "https://enlace-viernes.com"
-  }
+  }    
   ]
