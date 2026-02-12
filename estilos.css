@@ -1,370 +1,76 @@
-/* ===== VARIABLES Y RESET ===== */
+/* Reset básico */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
+/* Fondo general */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-  background: #0b1120;
-  color: #f1f5f9;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  padding: 2rem 1rem;
-  margin: 0;
 }
 
-.container {
-  max-width: 780px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.75rem;
-}
-
-/* ===== TARJETAS ===== */
+/* Tarjeta principal */
 .card {
-  background: #0f172a;
-  border: 1px solid #1e293b;
-  border-radius: 24px;
-  padding: 1.75rem 2rem;
-  box-shadow: 0 20px 35px -8px rgba(0,0,0,0.5);
-  transition: border 0.2s;
+  background: #ffffff;
+  padding: 32px 36px;
+  border-radius: 14px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
 }
 
-.card:hover {
-  border-color: #334155;
+/* Título */
+.card h1 {
+  font-size: 1.6rem;
+  margin-bottom: 22px;
+  color: #0f172a;
 }
 
-/* ===== ENCABEZADO CARRERA ===== */
-.carrera-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.carrera-icon {
-  font-size: 2rem;
-}
-
-.carrera-titulo {
-  font-size: 1.9rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  background: linear-gradient(to right, #e2e8f0, #b9d4fe);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  margin: 0;
-  line-height: 1.2;
-}
-
-.carrera-badge {
-  background: #1e293b;
-  color: #94a3b8;
-  font-size: 0.8rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 30px;
-  font-weight: 500;
-  margin-left: 0.75rem;
-}
-
-/* ===== SESIÓN DE HOY ===== */
-.sesion-header {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 1.25rem;
-}
-
-.sesion-titulo {
-  font-size: 1.35rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  color: #facc15;
-}
-
-.fecha-hoy {
-  background: #1e2a3a;
-  padding: 0.35rem 1rem;
-  border-radius: 40px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #b9d4fe;
-}
-
-.materia-profesor {
-  background: #131e2e;
-  border-left: 5px solid #38bdf8;
-  padding: 1.25rem 1.5rem;
-  border-radius: 18px;
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.materia-nombre {
-  font-size: 1.5rem;
-  font-weight: 650;
-  color: white;
-  letter-spacing: -0.01em;
-}
-
-.profesor-nombre {
-  background: #0f1a24;
-  padding: 0.4rem 1.2rem;
-  border-radius: 40px;
-  color: #a5f3fc;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.detalle-sesion {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.8rem;
-  margin-bottom: 1.8rem;
-  color: #cbd5e1;
-}
-
-.detalle-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+/* Bloques de información */
+.materia,
+.fechahora {
   font-size: 1.05rem;
+  margin-bottom: 14px;
 }
 
-.btn-sesion {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  background: #22c55e;
-  color: #052e16;
-  font-weight: 600;
-  padding: 0.9rem 2rem;
-  border-radius: 50px;
+.materia strong,
+.fechahora strong {
+  color: #0ea5e9;
+}
+
+/* Botón */
+a#enlace {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #2563eb;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 1.1rem;
-  border: 1px solid #4ade80;
-  transition: all 0.2s;
-  box-shadow: 0 6px 0 #14532d;
-  width: 100%;
-}
-
-.btn-sesion:hover {
-  background: #16a34a;
-  box-shadow: 0 4px 0 #14532d;
-  transform: translateY(2px);
-  color: white;
-}
-
-/* ===== ENLACES DE UTILIDAD - COMPACTO EN UNA SOLA LÍNEA ===== */
-.subseccion-titulo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.25rem;
+  border-radius: 8px;
   font-weight: 600;
-  margin-bottom: 0.75rem;
-  color: #b9d4fe;
-  border-bottom: 1px solid #334155;
-  padding-bottom: 0.6rem;
+  transition: background 0.25s ease, transform 0.2s ease;
 }
 
-.utilidad-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-  width: 100%;
-}
-
-.enlace-item {
-  background: #1e2a3a;
-  padding: 0.4rem 0.9rem;
-  border-radius: 30px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  transition: all 0.2s ease;
-  border: 1px solid #334155;
-  flex: 0 1 auto;
-  white-space: nowrap;
-}
-
-.enlace-item:hover {
-  background: #263649;
-  border-color: #60a5fa;
+a#enlace:hover {
+  background: #1e40af;
   transform: translateY(-1px);
 }
 
-.enlace-item a {
-  text-decoration: none;
-  color: #e0f2fe;
-  font-weight: 400;
-  font-size: 0.8rem;
-  word-break: keep-all;
-  white-space: nowrap;
-}
-
-.enlace-icon {
-  font-size: 0.95rem;
-}
-
-.email-link {
-  color: #a5f3fc !important;
-  font-size: 0.75rem !important;
-  text-decoration: underline 1px dashed #60a5fa !important;
-  text-underline-offset: 3px;
-}
-
-/* ===== PRÓXIMAS SESIONES ===== */
-.proximas-lista {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.proxima-item {
-  background: #1a2536;
-  padding: 0.8rem 1.2rem;
-  border-radius: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-left: 4px solid #38bdf8;
-}
-
-.proxima-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-}
-
-.proxima-fecha {
-  font-size: 0.8rem;
-  color: #94a3b8;
-}
-
-.proxima-materia {
-  font-weight: 600;
-  color: white;
-}
-
-.proxima-profesor {
-  font-size: 0.85rem;
-  color: #a5f3fc;
-}
-
-.proxima-horario {
-  font-size: 0.85rem;
-  color: #cbd5e1;
-}
-
-.btn-pequeno {
-  background: #2563eb;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 0.85rem;
-  transition: background 0.2s;
-  white-space: nowrap;
-}
-
-.btn-pequeno:hover {
-  background: #1d4ed8;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 750px) {
-  .card {
-    padding: 1.25rem 1.25rem;
-  }
-  
-  .carrera-titulo {
-    font-size: 1.5rem;
-  }
-  
-  .materia-profesor {
-    flex-direction: column;
-    gap: 0.8rem;
-    align-items: flex-start;
-  }
-  
-  .materia-nombre {
-    font-size: 1.2rem;
-  }
-  
-  /* Enlaces de utilidad se apilan en móvil */
-  .utilidad-grid {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.4rem;
-  }
-  
-  .enlace-item {
-    white-space: normal;
-    justify-content: center;
-    padding: 0.6rem 1rem;
-  }
-  
-  .enlace-item a {
-    white-space: normal;
-    word-break: break-word;
-    text-align: center;
-    font-size: 0.85rem;
-  }
-  
-  .proxima-item {
-    flex-direction: column;
-    gap: 0.8rem;
-    align-items: flex-start;
-  }
-  
-  .btn-pequeno {
-    align-self: flex-start;
-  }
-}
-
+/* Responsive */
 @media (max-width: 480px) {
-  .container {
-    gap: 1rem;
-  }
-  
   .card {
-    padding: 1rem;
+    padding: 26px 22px;
   }
-  
-  .sesion-header {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-start;
-  }
-  
-  .carrera-header {
-    flex-wrap: wrap;
-  }
-  
-  .carrera-badge {
-    margin-left: 0;
-  }
-  
-  .carrera-titulo {
-    font-size: 1.3rem;
+
+  .card h1 {
+    font-size: 1.4rem;
   }
 }
