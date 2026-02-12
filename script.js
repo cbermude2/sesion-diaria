@@ -3,7 +3,8 @@ fetch('data.json')
   .then(data => {
 
     // Fecha de hoy en formato YYYY-MM-DD
-    const hoy = new Date().toISOString().split('T')[0];
+    const hoy = new Date().toLocaleDateString('en-CA');
+
 
     // Buscar la sesión de hoy
     const sesionHoy = data.find(item => item.fecha === hoy);
