@@ -11,11 +11,13 @@ fetch('data.json')
 
     if (sesionHoy) {
       document.getElementById('materia').textContent = sesionHoy.materia;
+      document.getElementById('profesor').textContent = sesionHoy.profesor;
       document.getElementById('fecha').textContent = sesionHoy.fecha;
       document.getElementById('hora').textContent = sesionHoy.hora;
       document.getElementById('enlace').href = sesionHoy.enlace;
     } else {
       document.getElementById('materia').textContent = '-';
+      document.getElementById('profesor').textContent = '-';
       document.getElementById('fecha').textContent = 'No hay sesión hoy';
       document.getElementById('hora').textContent = '-';
       document.getElementById('enlace').style.display = 'none';
