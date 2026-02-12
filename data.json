@@ -3,24 +3,28 @@
     "fecha": "2026-02-09",
     "hora": "19:00 - 21:00",
     "materia": "Bases para el desarrollo Cross-Platform",
+    "profesor": "Maria del Carmen Castañeda",
     "enlace": "https://enlace-lunes.com"
   },
   {
     "fecha": "2026-02-10",
     "hora": "19:00 - 22:00",
     "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+    "profesor": "Christian Bermúdez",
     "enlace": "https://enlace-martes.com"
   },
   {
     "fecha": "2026-02-11",
     "hora": "19:00 - 21:00",
     "materia": "Bases para el desarrollo Cross-Platform",
+    "profesor": "Maria del Carmen Castañeda",
     "enlace": "https://enlace-miercoles.com"
   },
   {
     "fecha": "2026-02-12",
     "hora": "19:00 - 22:00",
     "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+    "profesor": "Christian Bermúdez",
     "enlace": "https://enlace-jueves.com"
   }    
   ]
