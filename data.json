@@ -1,30 +1,105 @@
-  [
-  {
-    "fecha": "2026-02-09",
-    "hora": "19:00 - 21:00",
-    "materia": "Bases para el desarrollo Cross-Platform",
-    "profesor": "Maria del Carmen Castañeda",
-    "enlace": "https://enlace-lunes.com"
-  },
-  {
-    "fecha": "2026-02-10",
-    "hora": "19:00 - 22:00",
-    "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
-    "profesor": "Christian Bermúdez",
-    "enlace": "https://enlace-martes.com"
-  },
-  {
-    "fecha": "2026-02-11",
-    "hora": "19:00 - 21:00",
-    "materia": "Bases para el desarrollo Cross-Platform",
-    "profesor": "Maria del Carmen Castañeda",
-    "enlace": "https://enlace-miercoles.com"
-  },
-  {
-    "fecha": "2026-02-12",
-    "hora": "19:00 - 22:00",
-    "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
-    "profesor": "Christian Bermúdez",
-    "enlace": "https://enlace-jueves.com"
-  }    
+{
+  "sesiones": [
+    {
+      "fecha": "9/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+      "profesor": "Christian Bermúdez G.",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "10/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo Cross-Platform",
+      "profesor": "Maria del Carmen Castañeda",
+      "horario": "19:00 a 21:00"
+    },
+    {
+      "fecha": "11/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+      "profesor": "Christian Bermúdez G.",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "12/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo Cross-Platform",
+      "profesor": "Maria del Carmen Castañeda",
+      "horario": "19:00 a 21:00"
+    },
+    {
+      "fecha": "13/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+      "profesor": "Christian Bermúdez G.",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "16/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo Cross-Platform",
+      "profesor": "Maria del Carmen Castañeda",
+      "horario": "19:00 a 21:00"
+    },
+    {
+      "fecha": "17/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+      "profesor": "Christian Bermúdez G.",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "18/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo Cross-Platform",
+      "profesor": "Maria del Carmen Castañeda",
+      "horario": "19:00 a 21:00"
+    },
+    {
+      "fecha": "19/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Desarrollo de Software",
+      "materia": "Bases para el desarrollo de Aplicaciones Móviles para iOS",
+      "profesor": "Christian Bermúdez G.",
+      "horario": "19:00 a 22:00"
+    }
+  ],
+  "enlaces_fijos": [
+    {
+      "nombre": "Plataforma académica",
+      "url": "http://tec.ucsg.edu.ec",
+      "icono": "📚"
+    },
+    {
+      "nombre": "Servicios en línea",
+      "url": "https://www46.ucsg.edu.ec/Login.htm",
+      "icono": "⚙️"
+    },
+    {
+      "nombre": "Correo institucional",
+      "url": "https://webmail.cu.ucsg.edu.ec",
+      "icono": "📧"
+    },
+    {
+      "nombre": "academico.tec@cu.ucsg.edu.ec",
+      "url": "mailto:academico.tec@cu.ucsg.edu.ec",
+      "icono": "📋",
+      "tipo": "email"
+    },
+    {
+      "nombre": "admissiones.tec@cu.ucsg.edu.ec",
+      "url": "mailto:admissiones.tec@cu.ucsg.edu.ec",
+      "icono": "💰",
+      "tipo": "email"
+    }
   ]
+}
