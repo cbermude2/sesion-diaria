@@ -1,0 +1,52 @@
+{
+  "sesiones": [
+    {
+      "fecha": "13/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Inteligencia Artificial",
+      "materia": "Fundamentos de big data",
+      "profesor": "Jaime Samaniego",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "16/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Inteligencia Artificial",
+      "materia": "Arquitectura básica de computadores",
+      "profesor": "Gastón Torres",
+      "horario": "19:00 a 21:00"
+    },
+    {
+      "fecha": "17/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Inteligencia Artificial",
+      "materia": "Fundamentos de big data",
+      "profesor": "Jaime Samaniego",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "18/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Inteligencia Artificial",
+      "materia": "Arquitectura básica de computadores",
+      "profesor": "Gastón Torres",
+      "horario": "19:00 a 21:00"
+    },
+    {
+      "fecha": "19/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Inteligencia Artificial",
+      "materia": "Fundamentos de big data",
+      "profesor": "Jaime Samaniego",
+      "horario": "19:00 a 22:00"
+    },
+    {
+      "fecha": "20/2/2026",
+      "enlace": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY2MzRmY2ItMjM2ZS00ZTY1LWJiNzctMWI2NGU2MzgyZWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22384dd41e-6615-47b2-9190-3e637eb7fcf0%22%2c%22Oid%22%3a%22090417f4-ce08-4e37-8f7b-5b9973b3614e%22%7d",
+      "carrera": "Inteligencia Artificial",
+      "materia": "Arquitectura básica de computadores",
+      "profesor": "Gastón Torres",
+      "horario": "19:00 a 21:00"
+    }
+  ]
+}
