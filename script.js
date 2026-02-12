@@ -9,6 +9,7 @@ fetch('data.json')
     const sesionHoy = data.find(item => item.fecha === hoy);
 
     if (sesionHoy) {
+      document.getElementById('materia').textContent = sesionHoy.materia;
       document.getElementById('fecha').textContent = sesionHoy.fecha;
       document.getElementById('hora').textContent = sesionHoy.hora;
       document.getElementById('enlace').href = sesionHoy.enlace;
