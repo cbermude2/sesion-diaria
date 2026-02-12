@@ -170,46 +170,52 @@ body {
   color: white;
 }
 
-/* ===== ENLACES DE UTILIDAD ===== */
+/* ===== ENLACES DE UTILIDAD - UNA SOLA LÍNEA ===== */
 .utilidad-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
   margin-top: 0.75rem;
+  width: 100%;
 }
 
 .enlace-item {
   background: #1a2536;
-  padding: 1rem 1.2rem;
-  border-radius: 18px;
-  display: flex;
+  padding: 0.7rem 1rem;
+  border-radius: 40px;
+  display: inline-flex;
   align-items: center;
-  gap: 0.7rem;
-  transition: background 0.15s, transform 0.1s;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
   border: 1px solid #2d3a4f;
+  flex: 0 1 auto;
+  white-space: nowrap;
 }
 
 .enlace-item:hover {
   background: #263649;
   border-color: #5f7a9a;
+  transform: translateY(-2px);
 }
 
 .enlace-item a {
   text-decoration: none;
   color: #e0f2fe;
   font-weight: 500;
-  font-size: 0.95rem;
-  word-break: break-word;
-  flex: 1;
+  font-size: 0.85rem;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .enlace-icon {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .email-link {
   color: #b9d4fe !important;
-  font-size: 0.9rem !important;
+  font-size: 0.8rem !important;
   text-decoration: underline 1px dashed #8099b0 !important;
   text-underline-offset: 4px;
 }
@@ -269,8 +275,23 @@ body {
   color: #cbd5e1;
 }
 
+.btn-pequeno {
+  background: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.btn-pequeno:hover {
+  background: #1d4ed8;
+}
+
 /* ===== RESPONSIVE ===== */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .card {
     padding: 1.25rem 1.25rem;
   }
@@ -285,7 +306,59 @@ body {
     align-items: flex-start;
   }
   
+  .materia-nombre {
+    font-size: 1.2rem;
+  }
+  
+  /* Enlaces de utilidad se apilan en móvil */
   .utilidad-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .enlace-item {
+    white-space: normal;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+  }
+  
+  .enlace-item a {
+    white-space: normal;
+    word-break: break-word;
+    text-align: center;
+  }
+  
+  .proxima-item {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: flex-start;
+  }
+  
+  .btn-pequeno {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    gap: 1rem;
+  }
+  
+  .card {
+    padding: 1rem;
+  }
+  
+  .sesion-header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .carrera-header {
+    flex-wrap: wrap;
+  }
+  
+  .carrera-badge {
+    margin-left: 0;
   }
 }
